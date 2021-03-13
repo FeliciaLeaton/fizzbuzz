@@ -2,4 +2,14 @@
 # But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”.
 # For numbers which are multiples of both three and five print “FizzBuzz”.
 
+x = range(1,101)
 
+for n in x:
+    if n%3 == 0 and n%5 == 0:
+        print("Fizzbuzz")
+    elif n%3==0:
+        print("fizz")
+    elif n%5 == 0:
+        print("buzz")
+    else:
+        print(n)
